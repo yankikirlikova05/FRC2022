@@ -44,4 +44,16 @@ public final class Constants {
 
     public static final boolean kGyroReversed = true;
 
+
+
+
+	//Motor Controller ID's
+	public static final int INTAKE_ID = 0;
+	public static final int STORAGE_ID = 0;
+	public static final int SHOOTER_MASTER_ID = 0;
+	public static final int SHOOTER_SLAVE_ID = 0;
+	
+	
+
+
 }
