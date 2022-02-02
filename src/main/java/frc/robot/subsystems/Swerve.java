@@ -77,10 +77,6 @@ public class Swerve extends SubsystemBase {
         );
   }
 
-  public AHRS getGyroAhrs() {
-      return gyroAhrs;
-  }
-
   public double getHeadingDouble(){
     //return gyroAhrs.getAngle();
     return Math.IEEEremainder(gyroAhrs.getAngle(), 360.0) * (Constants.kGyroReversed ? -1.0 : 1.0);
